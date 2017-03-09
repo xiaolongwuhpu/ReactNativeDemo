@@ -1,0 +1,35 @@
+rootProject.name = 'myapp'
+
+//include ':app'
+//
+//include ':jpush-react-native'
+//project(':jpush-react-native').projectDir = new File(rootProject.projectDir,'../node_modules/jpush-react-native/android')
+
+
+include ':app'
+include ':jpush-react-native'
+include ':jcore-react-native'
+project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jpush-react-native/android')
+project(':jcore-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jcore-react-native/android')
+/*
+include ':react-native-navigation'
+include ':react-native-barcodescanner'
+include ':react-native-image-picker'
+include ':react-native-image-resizer'
+include ':react-native-device-info'
+include ':reactamaplocation'
+include ':react-native-camera'
+
+project(':react-native-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation/android/app/')
+project(':react-native-barcodescanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-barcodescanner/android')
+project(':react-native-image-picker').projectDir = new File(settingsDir, '../node_modules/react-native-image-picker/android')
+project(':react-native-image-resizer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-resizer/android')
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+project(':reactamaplocation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-amap-location')
+project(':react-native-camera').projectDir = new File(rootProject.projectDir,   '../node_modules/react-native-camera/android')
+*/
+//
+//include ':facepp_ui_library'
+//include ':demo_project'
+
+
